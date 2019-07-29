@@ -1,0 +1,13 @@
+C:\DATA\CODE\C#\SNet\SNet_Client\bin\Debug\SNet_Client.exe.config
+C:\DATA\CODE\C#\SNet\SNet_Client\bin\Debug\SNet_Client.exe
+C:\DATA\CODE\C#\SNet\SNet_Client\bin\Debug\SNet_Client.pdb
+C:\DATA\CODE\C#\SNet\SNet_Client\bin\Debug\SNet_Utils.dll
+C:\DATA\CODE\C#\SNet\SNet_Client\bin\Debug\SNet_Utils.pdb
+C:\DATA\CODE\C#\SNet\SNet_Client\obj\Debug\SNet_Client.csprojAssemblyReference.cache
+C:\DATA\CODE\C#\SNet\SNet_Client\obj\Debug\SNet_Client.Properties.Resources.resources
+C:\DATA\CODE\C#\SNet\SNet_Client\obj\Debug\SNet_Client.csproj.GenerateResource.cache
+C:\DATA\CODE\C#\SNet\SNet_Client\obj\Debug\SNet_Client.csproj.CoreCompileInputs.cache
+C:\DATA\CODE\C#\SNet\SNet_Client\obj\Debug\SNet_Client.csproj.CopyComplete
+C:\DATA\CODE\C#\SNet\SNet_Client\obj\Debug\SNet_Client.exe
+C:\DATA\CODE\C#\SNet\SNet_Client\obj\Debug\SNet_Client.pdb
+C:\DATA\CODE\C#\SNet\SNet_Client\obj\Debug\SNet_Client.Form1.resources

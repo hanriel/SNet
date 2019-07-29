@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\DATA\CODE\C#\SNet" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="SNet.sln" t="IncludeFlat" />
+      <e p="SNet_Client" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Client.cs" t="Include" />
+        <e p="Form1.cs" t="Include" />
+        <e p="Form1.Designer.cs" t="Include" />
+        <e p="Form1.resx" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+          <e p="Settings.Designer.cs" t="Include" />
+          <e p="Settings.settings" t="Include" />
+        </e>
+        <e p="SNet_Client.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="SNet_Server" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Form1.cs" t="Include" />
+        <e p="Form1.Designer.cs" t="Include" />
+        <e p="Form1.resx" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+          <e p="Settings.Designer.cs" t="Include" />
+          <e p="Settings.settings" t="Include" />
+        </e>
+        <e p="Server.cs" t="Include" />
+        <e p="SNet_Server.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="SNet_Utils" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Definitions.cs" t="Include" />
+        <e p="GeneralFunctions.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Packets.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="SNet_Utils.csproj" t="IncludeRecursive" />
+      </e>
+    </e>
+    <e p="C:\Users\dfnil\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\dfnil\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_SNet.-960613098.00" t="ExcludeRecursive" />
+  </component>
+</project>

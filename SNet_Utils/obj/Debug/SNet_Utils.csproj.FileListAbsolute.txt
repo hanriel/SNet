@@ -1,0 +1,6 @@
+C:\DATA\CODE\C#\SNet\SNet_Utils\bin\Debug\SNet_Utils.dll
+C:\DATA\CODE\C#\SNet\SNet_Utils\bin\Debug\SNet_Utils.pdb
+C:\DATA\CODE\C#\SNet\SNet_Utils\obj\Debug\SNet_Utils.csprojAssemblyReference.cache
+C:\DATA\CODE\C#\SNet\SNet_Utils\obj\Debug\SNet_Utils.csproj.CoreCompileInputs.cache
+C:\DATA\CODE\C#\SNet\SNet_Utils\obj\Debug\SNet_Utils.dll
+C:\DATA\CODE\C#\SNet\SNet_Utils\obj\Debug\SNet_Utils.pdb
