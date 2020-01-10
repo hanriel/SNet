@@ -79,7 +79,7 @@ namespace SNet_Client
             buttonSendDataToServer.Enabled = false;
             ServerConnected = false;
             labelStatusInfo.Text = "Disconnected";
-            labelStatusInfo.ForeColor = System.Drawing.Color.Red;
+            labelStatusInfo.ForeColor = Color.Red;
             buttonConnectToServer.Enabled = true;
             SetSomeLabelInfoFromThread("...");
         }
@@ -237,7 +237,7 @@ namespace SNet_Client
             {
                 if (InvokeRequired)
                 {
-                    this.Invoke(new MethodInvoker(DoServerDisconnect));
+                    Invoke(new MethodInvoker(DoServerDisconnect));
                     return;
                 }
 
@@ -323,7 +323,7 @@ namespace SNet_Client
                     //buttonConnect.Text = "Connect";
                     labelStatusInfo.Text = "NOT Connected";
                     Line = 14;
-                    labelStatusInfo.ForeColor = System.Drawing.Color.Red;
+                    labelStatusInfo.ForeColor = Color.Red;
                 }
                 catch
                 {
@@ -377,7 +377,7 @@ namespace SNet_Client
                 _dataProcessHostServerThread.Start();
 
                 labelStatusInfo.Text = "Connecting...";
-                labelStatusInfo.ForeColor = System.Drawing.Color.Navy;
+                labelStatusInfo.ForeColor = Color.Navy;
             }
             catch (Exception ex)
             {
@@ -435,7 +435,7 @@ namespace SNet_Client
                     //autoEventHostServer.WaitOne();//wait at mutex until signal
                     //ods.DebugOut("After AutoEvent");
 
-                    if (_appIsExiting || this.IsDisposed)
+                    if (_appIsExiting || IsDisposed)
                         break;
 
                     /**********************************************/
@@ -534,7 +534,7 @@ namespace SNet_Client
                     _autoEvent2.WaitOne(10000); //wait at mutex until signal
                     //autoEvent2.WaitOne();
                     //ods.DebugOut("After AutoEvent2");
-                    if (_appIsExiting || !ServerConnected || this.IsDisposed)
+                    if (_appIsExiting || !ServerConnected || IsDisposed)
                         break;
 
                     while (_fullHostServerPacketList.Count > 0)
@@ -768,7 +768,7 @@ namespace SNet_Client
         {
             if (InvokeRequired)
             {
-                this.Invoke(new SetSomeLabelInfoDelegate(SetSomeLabelInfoFromThread), new object[] {info});
+                Invoke(new SetSomeLabelInfoDelegate(SetSomeLabelInfoFromThread), new object[] {info});
                 return;
             }
 
@@ -781,7 +781,7 @@ namespace SNet_Client
         {
             if (InvokeRequired)
             {
-                this.Invoke(new HostCommunicationsHasQuitDelegate(HostCommunicationsHasQuit), new object[] {FromHost});
+                Invoke(new HostCommunicationsHasQuitDelegate(HostCommunicationsHasQuit), new object[] {FromHost});
                 return;
             }
 
@@ -801,7 +801,7 @@ namespace SNet_Client
                     ? "The Server has exited"
                     : "App has lost communication with the server (network issue).";
 
-                labelStatusInfo.ForeColor = System.Drawing.Color.Red;
+                labelStatusInfo.ForeColor = Color.Red;
             }
         }
 
@@ -956,7 +956,7 @@ namespace SNet_Client
                 if (src == null || srcIndex < 0 || dst == null || dstIndex < 0 || count < 0)
                 {
                     Console.WriteLine("Serious Error in the Copy function 1");
-                    throw new System.ArgumentException();
+                    throw new ArgumentException();
                 }
 
                 int srcLen = src.Length;
@@ -964,7 +964,7 @@ namespace SNet_Client
                 if (srcLen - srcIndex < count || dstLen - dstIndex < count)
                 {
                     Console.WriteLine("Serious Error in the Copy function 2");
-                    throw new System.ArgumentException();
+                    throw new ArgumentException();
                 }
 
                 // The following fixed statement pins the location of the src and dst objects
